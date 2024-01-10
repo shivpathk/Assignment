@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dfdcdc;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    .header{
+        margin: 1rem;
+        color: rgb(151, 6, 13);
+        h1{
+            font-size: 4rem;
+            font-weight: 600;
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: 500;
+            
+        }
+    }
+    .subheader{
+        border-top: 1px solid black;
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+    .content{
+        margin: 1rem;
+        max-width: 80%;
+        font-size: 1.3rem;
+    }
+    .btn{
+        height: 3rem;
+    }
+}

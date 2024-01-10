@@ -1,0 +1,63 @@
+.sanyojak{
+    text-align: center;
+}
+.sanyojak-cards{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .card{
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 33rem;
+        background-color: rgb(240, 140, 82);
+        .card-title{
+            color: rgb(230, 20, 142);
+            font-size: 2.5rem;
+        }
+        .card-text{
+            font-size: 1.5rem;
+            color: rgb(222, 3, 91);
+        }
+    }
+}
+.Title{
+    font-size: 3rem;
+    color: rgb(5, 139, 228);
+    border-bottom: 3px solid;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-weight: 700;
+}
+
+.sahsanyojak-cards{
+    padding: 1rem;
+    .card-start{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .card{
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 33rem;
+        background-color: rgb(240, 140, 82);
+        .card-title{
+            color: rgb(230, 20, 142);
+            font-size: 2.5rem;
+        }
+        .card-text{
+            font-size: 1.5rem;
+            color: rgb(222, 3, 91);
+        }
+    }
+}
+}

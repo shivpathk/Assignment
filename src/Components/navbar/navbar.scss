@@ -1,0 +1,31 @@
+.navbar{
+    background-color: yellow;
+    backdrop-filter: blur(10px);
+    height: 5rem;
+    font-size: larger;
+    padding: 3rem;
+    .container-fluid{
+        padding: 3rem;
+        margin: 2rem;
+    }
+    .navbar-nav{
+        padding: 2rem;
+    }
+    .nav-item{
+        padding: 1rem;
+        a{
+            color: rgb(142, 4, 4);
+            font-weight: 600;
+        }
+        :hover{
+            color: black;
+            font-weight: 700;
+            border-bottom: 4px solid black;
+        }
+    }
+    .btn{
+        height: 4rem;
+        margin: 2rem;
+        padding: 1rem;
+    }
+}

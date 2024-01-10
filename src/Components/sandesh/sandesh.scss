@@ -1,0 +1,56 @@
+.sandesh{
+    padding-top: 4rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fbeedf;
+    .heading{
+        h1{
+            color: rgb(17, 96, 193);
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        h2{
+            color: black;
+        }
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2rem;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        .card{
+            margin: 12px;
+            padding: 10px;
+            p{
+                font-size: 1.1rem;
+            }
+            h4{
+                font-weight: 600;
+                color: rgb(236, 11, 11);
+            }
+        }
+    }
+    .videos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        margin: 2rem;
+        padding: 2rem;
+        .video{
+            margin: 2rem;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.register {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .bg-img {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    background-color: rgb(0, 0, 0);
+    max-width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2rem;
+    .card-title{
+        color: rgb(4, 4, 215);
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .card-text{
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+
+    }
+    .btn{
+        height: 3rem;
+        margin: 2rem;
+    }
+  }
+}
